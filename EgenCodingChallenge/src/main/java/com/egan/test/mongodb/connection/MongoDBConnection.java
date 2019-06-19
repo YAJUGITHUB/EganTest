@@ -9,7 +9,6 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 
 public class MongoDBConnection {
-	private static MongoDBConnection mongoConnection;
 	private static Datastore datastore = null;
 	private MongoDBConnection(){
 		

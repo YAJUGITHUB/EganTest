@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.egan.test.repository.MetricesRepositoryImpl;
+import com.egan.test.repository.impl.MetricesRepositoryImpl;
 import com.egan.test.rule.OverWeightRule;
 import com.egan.test.rule.UnderWeightRule;
 import com.egan.test.service.AlertService;
