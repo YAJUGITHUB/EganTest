@@ -25,7 +25,7 @@ public class OverWeightRule {
 	public OverWeightRule(AllDetails allDetails,AlertService alertservice) {
 	  this.allDetails = allDetails;
 	  this.baseWeight = this.allDetails.getBaseWeight();
-	  tenPercent =  baseWeight*10/100;
+	  tenPercent =  baseWeight*20/100;
 	  currentWeight = allDetails.getWeight();
 	  this.alertservice = alertservice;
 	}
